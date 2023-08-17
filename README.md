@@ -39,19 +39,11 @@ Generate 按钮旁边 切换版本，如 Extreme 或 Business 版
 点击 Generate 按钮
 点击右边生成的序列号，自动复制到剪贴板
 AIDA64 中粘贴序列号
-Build
+
+# Build
 我使用的环境是 Ubuntu 22.04，理应 Debian 11 也不会有什么问题
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
+```
 # 安装 Rust 编译环境
 curl https://sh.rustup.rs -sSf | sh
 # 安装其他依赖项
@@ -62,27 +54,23 @@ git clone https://github.com/LeagueRaINi/Aida64-Keys.git
 # 编译
 cd ./Aida64-Keys
 cargo build --verbose
-如果想要 Windows 的文件，那就继续这么弄
+```
 
-1
-2
-3
-4
-5
-6
+# 如果想要 Windows 的文件，那就继续这么弄
+
+```
 # 安装 MinGW-w64 作为开发环境
 apt install mingw-w64
 # 添加 Windows GNU目标
 rustup target add x86_64-pc-windows-gnu
 # 编译
 cargo build --target x86_64-pc-windows-gnu
-编译成功的话，可执行文件会在这个目录里面
+```
 
-1
-2
-3
-4
+# 编译成功的话，可执行文件会在这个目录里面
+```
 # Linux
 ./target/debug/
 # Windows
 ./target/x86_64-pc-windows-gnu/debug/
+```
