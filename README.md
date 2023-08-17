@@ -29,6 +29,7 @@ Linux:
 提取码：AG5Y
 
 # 使用说明
+
 以 Windows GUI 版本为例
 
 1. 运行 aida64-keys-gui.exe
@@ -39,6 +40,7 @@ Linux:
 6. 点击 Generate 按钮
 7. 点击右边生成的序列号，自动复制到剪贴板
 8. AIDA64 中粘贴序列号
+
 
 # Build
 我使用的环境是 Ubuntu 22.04，理应 Debian 11 也不会有什么问题
