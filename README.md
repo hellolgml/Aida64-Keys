@@ -34,9 +34,9 @@ Linux:
 
 1. 运行 aida64-keys-gui.exe
 2. Generate 按钮旁边 切换版本，如 Extreme 或 Business 版
-3.（可选）Purchase Date 选项设置为想要的购买日期
-4.（可选）Expire Date 设置为想要的授权期限，或勾选旁边的 No Expiry 就是永不过期
-5.（可选）Maintenance Expire Date 设置为想要的维护期限
+3. （可选）Purchase Date 选项设置为想要的购买日期
+4. （可选）Expire Date 设置为想要的授权期限，或勾选旁边的 No Expiry 就是永不过期
+5. （可选）Maintenance Expire Date 设置为想要的维护期限
 6. 点击 Generate 按钮
 7. 点击右边生成的序列号，自动复制到剪贴板
 8. AIDA64 中粘贴序列号
